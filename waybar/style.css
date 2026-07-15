@@ -113,12 +113,14 @@ button:hover {
 }
 
 #clock {
-    background-color: rgba(98, 143, 93, 0.82);
+    background-color: rgba(98, 143, 93, 0.6);
     border-radius: 20px;
+    color: #1c1207;
 }
 
 #battery {
-    background-color: rgba(98, 143, 93, 0.82);
+    background-color: rgba(98, 143, 93, 0.6);
+    color: #1c1207;
     border-radius: 20px;
 }
 
@@ -182,13 +184,15 @@ label:focus {
 }
 
 #backlight {
-    background-color: rgba(98, 143, 93, 0.82);
+    background-color: rgba(98, 143, 93, 0.6);
     border-radius: 20px;
+    color: #1c1207;
 }
 
 #network {
-    background-color: rgba(98, 143, 93, 0.82);
     border-radius: 20px;
+    color: #1c1207;
+    background-color: rgba(99, 143, 93, 0.6);
 }
 
 #network.disconnected {
@@ -196,8 +200,9 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: rgba(98, 143, 93, 0.82);
     border-radius: 20px;
+    color: #1c1207;
+    background-color: rgba(99, 143, 93, 0.6);
 }
 
 #pulseaudio.muted {
@@ -237,8 +242,9 @@ label:focus {
 }
 
 #tray {
-    background-color: rgba(98, 143, 93, 0.82);
+    background-color: rgba(98, 143, 93, 0.6);
     border-radius: 20px;
+    color: #1c1207;
 }
 
 #tray > .passive {

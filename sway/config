@@ -234,3 +234,13 @@ gaps outer 5
 
 
 exec_always autotiling
+
+# waybar brown
+set $base00 #1c1207 
+# waybar green
+set $base01 #628F5D
+
+set $base02 #8A5D8F
+
+client.focused $base01 $base02 $base00
+client.unfocused $base00 $base01 $base02
