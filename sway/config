@@ -242,5 +242,9 @@ set $base01 #628F5D
 
 set $base02 #8A5D8F
 
-client.focused $base01 $base02 $base00
-client.unfocused $base00 $base01 $base02
+set $base03 #008000
+
+set $base04 #727f70
+client.focused $base01 $base01 $base00 $base03 $base01
+client.unfocused $base00 $base00 $base00 $base00 $base00
+client.focused_inactive $base00 $base00 $base04 $base04 $base04
